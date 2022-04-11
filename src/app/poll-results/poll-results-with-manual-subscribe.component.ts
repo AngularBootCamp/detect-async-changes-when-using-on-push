@@ -15,7 +15,8 @@ import { PollResultsService } from './poll-results.service';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PollResultsWithManualSubscribeComponent
-  implements OnDestroy {
+  implements OnDestroy
+{
   pollResults: PollResult[] = [];
 
   private subscription: Subscription;

@@ -8,8 +8,8 @@ import { PollResultsWithManualSubscribeComponent } from './poll-results/poll-res
 @NgModule({
   declarations: [
     AppComponent,
-    PollResultsWithManualSubscribeComponent,
-    PollResultsWithAsyncPipeComponent
+    PollResultsWithAsyncPipeComponent,
+    PollResultsWithManualSubscribeComponent
   ],
   imports: [BrowserModule],
   bootstrap: [AppComponent]

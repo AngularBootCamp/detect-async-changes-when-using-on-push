@@ -1,6 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "defaultProject": "detect-async-changes-when-using-on-push",
   "newProjectRoot": "projects",
   "projects": {
     "detect-async-changes-when-using-on-push": {

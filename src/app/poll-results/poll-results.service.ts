@@ -1,6 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Observable, interval, of } from 'rxjs';
-import { startWith, switchMap, take } from 'rxjs/operators';
+import {
+  Observable,
+  interval,
+  of,
+  startWith,
+  switchMap,
+  take
+} from 'rxjs';
 
 import { PollResult } from './poll-results-types';
 

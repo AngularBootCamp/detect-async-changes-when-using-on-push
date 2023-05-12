@@ -5,7 +5,7 @@ import { PollResult } from './poll-results-types';
 import { PollResultsService } from './poll-results.service';
 
 @Component({
-  selector: 'poll-results-with-async-pipe',
+  selector: 'app-poll-results-with-async-pipe',
   templateUrl: './poll-results-with-async-pipe.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

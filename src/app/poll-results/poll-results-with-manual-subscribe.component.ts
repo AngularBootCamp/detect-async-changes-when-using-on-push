@@ -10,7 +10,7 @@ import { PollResult } from './poll-results-types';
 import { PollResultsService } from './poll-results.service';
 
 @Component({
-  selector: 'poll-results-with-manual-subscribe',
+  selector: 'app-poll-results-with-manual-subscribe',
   templateUrl: './poll-results-with-manual-subscribe.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

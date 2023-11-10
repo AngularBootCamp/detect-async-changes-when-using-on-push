@@ -1,3 +1,4 @@
+import { NgFor } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   // ChangeDetectorRef,
@@ -12,7 +13,9 @@ import { PollResultsService } from './poll-results.service';
 @Component({
   selector: 'app-poll-results-with-manual-subscribe',
   templateUrl: './poll-results-with-manual-subscribe.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: true,
+  imports: [NgFor]
 })
 export class PollResultsWithManualSubscribeComponent
   implements OnDestroy

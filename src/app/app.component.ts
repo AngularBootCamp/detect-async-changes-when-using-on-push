@@ -6,7 +6,7 @@ import { PollResultsWithManualSubscribeComponent } from './poll-results/poll-res
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrl: './app.component.scss',
   standalone: true,
   imports: [
     PollResultsWithManualSubscribeComponent,
